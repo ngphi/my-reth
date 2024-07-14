@@ -1,0 +1,16 @@
+[package]
+name = "reth"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    "crate-template",
+    "crates/*"
+]
+
+[dependencies]
+
+[[bin]]
+path = "bin/reth.rs"
+name = "reth"
